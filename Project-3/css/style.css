@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+
+}
+a {
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+    left: 90px;
+    top: 50px;
+}
+.logo a {
+    text-shadow: 2px 2px 30px rgba(0, 0, 0,0.2 );
+    font-weight: bold;
+    color: rgb(81, 75, 75);
+    font-size: 2rem;
+    letter-spacing: 1;
+}
+.searcharea{
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    width: 170px;
+    height: 45px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid rgba(167, 158, 245, 0.1);
+}
+.searchbox input {
+    width: 90px;
+    height: 20px;border: none;
+    outline: none;
+    background-color: transparent;
+    color: #1F1F1F;
+    font-size: 1rem;
+    padding: 0 10px;
+
+}
+.searchbox input::placeholder{
+    color: #1d1d1d;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+.section1{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+}
+.section1 img{
+    height: 300px;
+}
+.section1button{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%,-50%);
+}
+.section1button h1{
+    letter-spacing: 25px;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #3D3D4A;
+}
+.section1button h1 span{
+    color: #6C63FF;
+}
+.section1button h2{
+    font-size: 4rem;
+    font-weight: 300;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #3D3D4A;
+}
+.section1button h2 span{
+    color: #6C63FF;
+}
+.section1button button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    background-color: #3F3D56;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: calibri;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border: transparent !important;
+}
+.section1button button:hover{
+    background-color: #6C63FF;
+}
+.iconarea {
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    padding: 5px 0px;
+    z-index: 1;
+}
+.iconarea a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+.iconarea a i {
+    color: #3D3D4A;
+}
